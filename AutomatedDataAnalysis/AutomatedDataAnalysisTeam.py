@@ -35,7 +35,7 @@ data_analyst = Agent(
 
 topic = "Recent Gold Rate Trends"
 collect_data_task = Task(
-    config=tasks_config['collect_data_task'],
+    config=tasks_config['collect_data_task'].format(topic=topic),
     agent=data_collector
 )
 
