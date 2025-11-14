@@ -1,0 +1,11 @@
+collect_data_task :
+  description: >
+    "Collect data on the specified topic. Topic:{topic}"
+  expected_output: >
+    Raw data collected from various sources. Structured in a good manner in points.
+
+analyze_data_task:
+  description: >
+    Analyze the collected data to extract meaningful insights. And predict the Gold Rates for the next 6 months.
+  expected_output: >
+    Insights derived from the data analysis. And the next 6 month prediction
